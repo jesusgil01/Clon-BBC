@@ -389,14 +389,19 @@ body {
 /*Third-section-main-news*/
 
 .third-main-news-section {
-    display: flex;
     width: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 .third-main-news-section ul {
-    margin: 0 1rem 0 1.5rem;
+    display: flex;
     padding: 0;
     list-style: none;
+}
+
+.third-main-news-section ul li {
+    padding: 0 1.6rem 3rem 0;
 }
 
 .third-main-news-section ul li div {
