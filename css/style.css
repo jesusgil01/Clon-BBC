@@ -43,10 +43,16 @@ body {
     width: 15.5rem;
 }
 
-.white-header .user-icon img {
-    width: 1.8rem;
-    height: 1.8rem;
-    position: absolute;
+.white-header .user-icon .user-icon-container {
+    background-image: url(/img/profile-user.png);
+    background-size: 1.8rem;
+    background-repeat: no-repeat;
+}
+
+.white-header .user-icon .user-icon-container a {
+    min-width: 100%;
+    display: block;
+    text-decoration: none;
 }
 
 .white-header .user-icon span {
@@ -122,4 +128,68 @@ body {
     background-position: center center;
     background-size: 1.6rem 1.6rem;
     padding: 0;
+}
+
+
+/*Banner rojo*/
+
+#banner-news-and-sections {
+    background-color: #bb1919;
+    display: flex;
+}
+
+.red-header {
+    width: 100%;
+    color: #bb1919;
+}
+
+.red-header .banner-logo {
+    background: url(/img/news-logo.png);
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: center;
+    margin: 1.5rem 5rem 0;
+    width: 12.2rem;
+    height: 3.2rem;
+    cursor: pointer;
+}
+
+.red-header .banner-logo a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.red-header .red-nav {
+    width: 100%;
+    margin: 0.5rem 1rem 0;
+    display: flex;
+}
+
+.red-header .red-nav ul {
+    display: flex;
+}
+
+.red-header .red-nav li {
+    border-right: thin solid #b4b5b642;
+}
+
+.red-header .red-nav a {
+    text-decoration: none;
+    color: white;
+    padding: 0 1.3rem;
+}
+
+#first-item-red-nav {
+    padding-left: 0;
+}
+
+#more-red-nav {
+    margin: 1.2rem 0 0;
+    height: fit-content;
+}
+
+#more-red-nav img {
+    width: 1rem;
+    height: 1rem;
+    padding: 0 0.5rem;
 }
